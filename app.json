@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Prashant Motor Training",
+    "slug": "prashant-training",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1A3C6E"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.prashant.motortraining"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1A3C6E"
+      },
+      "package": "com.prashant.motortraining"
+    },
+    "plugins": []
+  }
+}
