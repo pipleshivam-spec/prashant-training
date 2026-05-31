@@ -6,7 +6,9 @@
     "start": "npx expo start",
     "android": "npx expo start --android",
     "ios": "npx expo start --ios",
-    "web": "npx expo start --web"
+    "web": "npx expo start --web",
+    "build:web": "npx expo export -p web",
+    "vercel-build": "npx expo export -p web"
   },
   "dependencies": {
     "@expo-google-fonts/inter": "^0.4.2",
